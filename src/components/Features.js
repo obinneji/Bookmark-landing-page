@@ -25,7 +25,7 @@ const Features = () => {
     setTabPara("We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.");
   }
   return (
-    <div className='font-rubik w-full'>
+    <div className='font-rubik '>
       <h2 className='font-medium text-center mb-7 text-4xl text-darkblue'>Features</h2>
      <div className='text-center features text-grayishblue mb-10'>
         <p className='leading-normal' > Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>

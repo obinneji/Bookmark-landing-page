@@ -21,6 +21,7 @@ p{
 .hero{
     position: relative;
     top: -200px;
+    left: -100px;
    z-index: 4;
 }
 @media (min-width: 357px) {

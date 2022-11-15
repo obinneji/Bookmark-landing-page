@@ -31,7 +31,7 @@ const Newletter = () => {
   window.alert(errorMsg)
   }
   return (
-    <div className=' w-full bg-softblue pt-5  pb-8  text-center text-white font-rubik'>
+    <div className=' bg-softblue pt-5  pb-8  text-center text-white font-rubik'>
       <p className='my-10 uppercase text-l'> 35,000+ already joined
       </p>
       <div className='mb-10 textcontainer'>
