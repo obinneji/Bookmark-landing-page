@@ -1,0 +1,7 @@
+.social-path:hover{
+    fill: hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+svg{
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+
+.email-div{
+    width: 40%;
+}
+.email-input{
+    height: 100%;
+    outline: none;
+}
+.email-input::placeholder{
+    padding: 0px;
+    font-weight: 400;
+}
+.email-input[type]{
+    font-family: 'rubik';
+    color: softred;
+    padding: 0 30px;
+}
+small{
+}

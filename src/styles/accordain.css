@@ -1,0 +1,17 @@
+@media (min-width: 375px) {
+    .faq{
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    .faq{
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+}

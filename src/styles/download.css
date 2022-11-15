@@ -1,0 +1,16 @@
+@media (min-width: 357px) {
+    .card{
+        /* width: 00px; */
+        padding: 20px;
+    }
+    .horizontal{
+        border-width: 0 0 5px 0;
+        border-style: dotted;
+        width: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    .card{
+        
+    }
+}

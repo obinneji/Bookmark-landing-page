@@ -1,0 +1,45 @@
+*{
+    /* outline: 1px solid red; */
+}
+p{
+    line-height: 1.5;
+    word-spacing: 1.5px;
+}
+.text-div{
+    padding-right: 300px;
+}
+.blue{
+    height: 300px;
+    position: relative;
+    width: 435px;
+    z-index: 3;
+    top: 150px;
+    left: 100px;
+    border-radius: 50% 0 0 50%;
+   
+}
+.hero{
+    position: relative;
+    top: -200px;
+   z-index: 4;
+}
+@media (min-width: 357px) {
+    .blue{
+        top: 190px;
+    width: 300px;
+
+    }
+    .text-div{
+    padding-right: 0px;
+}
+}
+@media (min-width: 1000px) {
+    .blue{
+    width: 435px;
+
+        /* top: 200px; */
+    }
+    .text-div{
+        padding-right: 200px;
+    }
+}
