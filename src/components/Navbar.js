@@ -12,9 +12,9 @@ const Navbar = () => {
     display: "flex"
   }
   return (
-    <div className='relative'>
+    <div className='relative w-full'>
       <nav className='bg-white px-9 pt-10 pb-2 flex items-center  font-rubik '>
-        <img src='/images/logo-bookmark.svg' className='ml-5' alt='bookmark-logo' />
+        <img src='/images/logo-bookmark.svg' className='ml-10' alt='bookmark-logo' />
         <ul className='desktop:flex ml-auto gap-12 mr-5 mobile:hidden'>
           <li><a href='' className='text-darkblue hover:text-softred uppercase'>Features</a></li>
           <li><a href='' className='text-darkblue hover:text-softred uppercase'>Pricing</a></li>
