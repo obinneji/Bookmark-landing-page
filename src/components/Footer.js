@@ -9,9 +9,9 @@ const Footer = () => {
 
     </div>
     <ul className='flex mobile:flex-col desktop:flex-row gap-7 mobile:mx-auto desktop:mx-0'>
-      <li> <a href='' className='text-white hover:text-softred uppercase'>Features</a></li>
-      <li> <a href='' className='text-white hover:text-softred uppercase'>Pricing</a></li>
-      <li> <a href='' className='text-white hover:text-softred uppercase'>Contact</a></li>
+      <li> <a href='#' className='text-white hover:text-softred uppercase font-normal'>Features</a></li>
+      <li> <a href='#' className='text-white hover:text-softred uppercase font-normal'>Pricing</a></li>
+      <li> <a href='#' className='text-white hover:text-softred uppercase font-normal'>Contact</a></li>
       
     </ul>
     <div className='flex gap-5 desktop:ml-auto desktop:justify-end mobile:justify-center '>

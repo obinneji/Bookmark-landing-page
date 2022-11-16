@@ -35,7 +35,7 @@ const FaqAccodian = () => {
     });
   }
   return (
-    <div className='mt-7  font-rubik '>
+    <div className='mt-7  font-rubik w-full '>
       <h2 className='font-medium mx-auto my-4 text-4xl text-darkblue text-center'>Frequently Asked Questions</h2>
       <div className='text-center features text-grayishblue mb-10 '><p className='leading-normal'>Here are some of our FAQs. If you have any other questions you’d like
         answered please feel free to email us.</p>

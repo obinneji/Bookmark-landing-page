@@ -16,10 +16,10 @@ const Navbar = () => {
       <nav className='bg-white px-9 pt-10 pb-2 flex items-center  font-rubik '>
         <img src='/images/logo-bookmark.svg' className='ml-10' alt='bookmark-logo' />
         <ul className='desktop:flex ml-auto gap-12 mr-5 mobile:hidden'>
-          <li><a href='' className='text-darkblue hover:text-softred uppercase'>Features</a></li>
-          <li><a href='' className='text-darkblue hover:text-softred uppercase'>Pricing</a></li>
-          <li><a href='' className='text-darkblue hover:text-softred uppercase'>Contact</a></li>
-          <li><a href='' className='bg-softred px-8 py-3 rounded-md  uppercase text-white hover:text-softred hover:bg-white border-2 hover:border-softred'>Login</a></li>
+          <li><a href='#' className='text-darkblue hover:text-softred uppercase'>Features</a></li>
+          <li><a href='#' className='text-darkblue hover:text-softred uppercase'>Pricing</a></li>
+          <li><a href='#' className='text-darkblue hover:text-softred uppercase'>Contact</a></li>
+          <li><a href='#' className='bg-softred px-8 py-3 rounded-md  uppercase text-white hover:text-softred hover:bg-white border-2 hover:border-softred'>Login</a></li>
         </ul>
         <img src='/images/icon-hamburger.svg'  className='desktop:hidden ml-auto cursor-pointer' onClick={showMobileNav}/> 
       </nav>
@@ -31,10 +31,10 @@ const Navbar = () => {
         <img src='/images/icon-close.svg'  className='ml-auto mr-7 cursor-pointer' onClick={closeMobileNav} alt='close-icon'/>
         </div>
         <ul className='flex flex-col text-center mt-4'>
-          <li className='m-5 uppercase'><a href=''>Features</a></li><hr className='mx-10 tex' />
-          <li className='m-5 uppercase'><a href='' >Pricing</a></li><hr className='mx-10 tex'/>
-          <li className='m-5 uppercase'><a href=''>Contact</a></li><hr className='mx-10 tex' />
-          <li className='mt-10 mb-10 uppercase'><a href=''  className='px-20 py-3 border-2 rounded-md'>Login</a></li>
+          <li className='m-5 uppercase'><a href='#'>Features</a></li><hr className='mx-10 tex' />
+          <li className='m-5 uppercase'><a href='#' >Pricing</a></li><hr className='mx-10 tex'/>
+          <li className='m-5 uppercase'><a href='#'>Contact</a></li><hr className='mx-10 tex' />
+          <li className='mt-10 mb-10 uppercase'><a href='#'  className='px-20 py-3 border-2 rounded-md'>Login</a></li>
         </ul>
         <div className='flex flex-row align-center justify-center mt-10 gap-8 mb-10 '>
           <img src='/images/icon-facebook.svg'  alt='facebook-logo'/>

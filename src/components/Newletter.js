@@ -9,9 +9,12 @@ const Newletter = () => {
     setEmail(inputedEmail)
   }
   const errorStyle = {
-    border: "4px solid red",
-    backgroundImage : "/images/icon-error.svg",
-    marginLeft: "40px"
+    border: "solid hsl(0, 94%, 66%)",
+    borderWidth: "4px 4px 2px 4px",
+    // backgroundImage : "/images/icon-error.svg",
+    backgroundImage: "url(" + "/images/icon-error.svg" + ")",
+  backgroundPosition: 'right 50%  bottom 50%',
+  backgroundRepeat: 'no-repeat'
   }
   const validateEmail = (e) => {
     e.preventDefault();
@@ -26,35 +29,29 @@ const Newletter = () => {
       setErrorMsg("Whoops make sure its an email")
     }
     else {
-      setErrorMsg("correct")
+      setErrorMsg("")
     }
-  window.alert(errorMsg)
   }
   return (
-    <div className=' bg-softblue pt-5  pb-8  text-center text-white font-rubik'>
-      <p className='my-10 uppercase text-l'> 35,000+ already joined
+    <div className=' w-full bg-softblue pt-5  pb-8 px-7 text-white font-rubik'>
+      <p className='my-10 uppercase text-l text-center'> 35,000+ already joined
       </p>
-      <div className='mb-10 textcontainer'>
+      <div className='mb-10 textcontainer text-center'>
         <h4 className='text-4xl '>Stay up-to-date with what <br /> we’re doing</h4>
       </div>
-      <form className=' flex justify-center gap-5 pb-10 '>
-        <div className=''>
-          <input
-           type='email'
+      <div>
+        <form>
+          <div className='input-section'>
+          <input type='email' placeholder='Enter your email address'
+           className='text-darkblue font-medium'
            onChange={handleChange}
-           className="email-input rounded py-3 px-5 text-darkblue font-medium "
-           style={errorStyle}
-           placeholder='Enter your email address'
+           style={errorMsg !== "" ? errorStyle : null}
            />
-        </div>
-        <div className='self-start'>
-          <input type='submit' 
-          value='Contact Us'
-          onClick={validateEmail}
-          className=' bg-softred py-2 px-3  rounded font-rubik font-medium cursor-pointer hover:bg-white hover:border-4 hover:text-softred'
-          />
-        </div>
-      </form>
+           {errorMsg !== "" ? <small>{errorMsg}</small> : null}
+          </div>
+          <button className='submit-section bg-softred py-3 px-3' onClick={validateEmail}>Contact us</button>
+        </form>
+      </div>
     </div>
   )
 }

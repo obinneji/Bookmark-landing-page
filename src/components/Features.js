@@ -7,9 +7,11 @@ const Features = () => {
   const [tabImage, setTabImage] = useState("/images/illustration-features-tab-1.svg");
 
   const style= {
-    display: "block"
+    borderBottom: "4px ",
+    borderColor: "red",
+    borderStyle: "solid"
   }
-  const tab1 = () => {
+  const tab1 = (event) => {
     setTabHeader("Bookmark in one click")
     setTabImage("/images/illustration-features-tab-1.svg")
     setTabPara("Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites")
@@ -47,7 +49,7 @@ const Features = () => {
               <img src={tabImage} alt='hero-image' />
             </div>
           </div>
-          <div className='self-center mobile:text-center desktop:text-left ml-20' >
+          <div className='self-center mobile:text-center desktop:text-left mobile:ml-0 desktop:ml-20 mobile:px-5 desktop:px-0' >
             <h2 className="text-darkblue font-medium text-3xl my-7">{tabHeader}</h2>
             <div className="para text-grayishblue my-5 "><p className='leading-loose '>{tabPara}</p></div>
             <button className='bg-softblue py-3 px-5 font-medium font-rubik text-center text-white border-none rounded mt-7'>More Info</button>

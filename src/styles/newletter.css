@@ -1,5 +1,5 @@
 
-.email-div{
+/* .email-div{
     width: 40%;
 }
 .email-input{
@@ -14,6 +14,61 @@
     font-family: 'rubik';
     color: softred;
     padding: 0 30px;
+} */
+
+form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 40%;
+    margin-bottom: 50px;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.input-section > input{
+    
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 5px;
+}
+.input-section > input::placeholder{
+    font-weight: 400;
+}
+.input-section > input[type] {
+    font-family: 'rubik';
+    color: softred;
+    padding-left: 30px;
 }
 small{
+    width: 100%;
+    background-color: hsl(0, 94%, 66%);
+    padding-left: 20px;
+    border-radius: 0px 0px 10px 10px;
+    font-style: italic;
+    padding: 4px 20px;
+}
+.submit-section{
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'rubik';
+    font-weight: 500;
+}
+.submit-section:hover{
+    background-color: #fff;
+    color:  hsl(0, 94%, 66%) ;
+    border: 4px solid;
+}
+@media (max-width: 500px) {
+    form{
+        flex-direction: column;
+        width: 80%;
+    }
+    .input-section{
+        width: 100%;
+    }
 }

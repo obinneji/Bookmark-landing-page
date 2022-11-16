@@ -2,6 +2,11 @@
 .features{
     padding: 0 470px;
 }
+.border{
+    border-color: red;
+    border-style: solid;
+    border-width: 0  0 5px 0;
+}
  @media (min-width: 357px) {
     .features{
         padding: 0 50px;
@@ -33,7 +38,7 @@
     .tab-image{
         position: relative;
         top: -150px;
-        left: 40px;
+        left: 10px;
        z-index: 4;
     }
     .para{
