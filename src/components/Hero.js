@@ -3,7 +3,7 @@ import "../styles/hero.css"
 
 const Hero = () => {
   return (
-    <section className=' bg-white bg-right flex mobile:flex-col desktop:flex-row mx-6 font-rubik  '>
+    <header className=' bg-white bg-right flex mobile:flex-col desktop:flex-row mx-6 font-rubik  '>
     <div className='mobile:order-last mb-20 self-center mobile:text-center desktop:text-left desktop:mx-20 mobile:mx-5'>
         <h1 className='text-darkblue font-medium desktop:text-4xl mobile:text-3xl mb-6'>  A Simple Bookmark <br />Manager</h1>
         <div className='text-div mb-8'><p className='text-grayishblue font-normal '>  A clean and simple interface to organize your favourite websites. Open a new
@@ -19,7 +19,7 @@ const Hero = () => {
           <img src='/images/illustration-hero.svg' alt='hero-image' />
         </div>
       </div>
-    </section>
+    </header>
   )
 }
 

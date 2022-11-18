@@ -35,7 +35,7 @@ const FaqAccodian = () => {
     });
   }
   return (
-    <div className='mt-7  font-rubik w-full '>
+    <aside className='mt-7  font-rubik w-full '>
       <h2 className='font-medium mx-auto my-4 text-4xl text-darkblue text-center'>Frequently Asked Questions</h2>
       <div className='text-center features text-grayishblue mb-10 '><p className='leading-normal'>Here are some of our FAQs. If you have any other questions you’d like
         answered please feel free to email us.</p>
@@ -86,7 +86,7 @@ const FaqAccodian = () => {
         </div>
       </div>
       <button className='bg-softblue text-white font-normal text-center flex my-20 mx-auto font-rubik px-5 py-3 rounded'>More Info</button>
-    </div>
+    </aside>
   )
 }
 

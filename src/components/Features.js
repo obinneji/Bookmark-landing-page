@@ -6,11 +6,7 @@ const Features = () => {
   const [tabPara, setTabPara] = useState("Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites")
   const [tabImage, setTabImage] = useState("/images/illustration-features-tab-1.svg");
 
-  const style= {
-    borderBottom: "4px ",
-    borderColor: "red",
-    borderStyle: "solid"
-  }
+
   const tab1 = (event) => {
     setTabHeader("Bookmark in one click")
     setTabImage("/images/illustration-features-tab-1.svg")
@@ -27,7 +23,7 @@ const Features = () => {
     setTabPara("We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.");
   }
   return (
-    <div className='font-rubik '>
+    <main className='font-rubik '>
       <h2 className='font-medium text-center mb-7 text-4xl text-darkblue'>Features</h2>
      <div className='text-center features text-grayishblue mb-10'>
         <p className='leading-normal' > Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
@@ -56,7 +52,7 @@ const Features = () => {
           </div>
         </div>
       
-    </div>
+    </main>
   )
 }
 
