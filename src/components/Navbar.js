@@ -21,7 +21,7 @@ const Navbar = () => {
           <li><a href='#' className='text-darkblue hover:text-softred uppercase'>Contact</a></li>
           <li><a href='#' className='bg-softred px-8 py-3 rounded-md  uppercase text-white hover:text-softred hover:bg-white border-2 hover:border-softred'>Login</a></li>
         </ul>
-        <img src='/images/icon-hamburger.svg'  className='desktop:hidden ml-auto cursor-pointer' onClick={showMobileNav}/> 
+        <img src='/images/icon-hamburger.svg'  className='desktop:hidden ml-auto cursor-pointer' onClick={showMobileNav} alt='hamburger-icon'/> 
       </div>
       <div className=' h-screen w-screen z-1 bg-grayishblue opacity-100 relative bottom-28 z-10 font-rubik text-white flex flex-col align-center hidden py-10' style={isMobile ? mobileStyles : null}>
         <div className='mt-9 flex mx-7 '>
