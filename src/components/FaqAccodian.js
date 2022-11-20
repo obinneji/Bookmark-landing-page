@@ -44,7 +44,7 @@ const FaqAccodian = () => {
         <div className=''>
           <hr className='w-full text-grayishblue' />
           <div className='flex justify-between mt-5 mb-7 items-center cursor-pointer' onClick={faq1}>
-            <h4 className='text-2xl text-darkblue font-medium hover:text-softred'>What is Bookmark?</h4>
+            <h3 className='text-2xl text-darkblue font-medium hover:text-softred'>What is Bookmark?</h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" style={questionOne ? styleArrow : null}><path fill="none" stroke={questionOne ? "softred" : "#5267DF"} stroke-width="3" d="M1 1l8 8 8-8" /></svg>
 
           </div>
@@ -54,7 +54,7 @@ const FaqAccodian = () => {
         <div>
           <hr className='w-full text-grayishblue' />
           <div className='flex justify-between mt-5 mb-7 items-center cursor-pointer' onClick={faq2} >
-            <h4 className='text-2xl text-darkblue font-medium hover:text-softred' >How can I request a new browser?</h4>
+            <h3 className='text-2xl text-darkblue font-medium hover:text-softred' >How can I request a new browser?</h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" style={questionTwo ? styleArrow : null}><path fill="none" stroke={questionTwo ? "softred" : "#5267DF"} stroke-width="3" d="M1 1l8 8 8-8" /></svg>
             </div>
           <p className='mb-3 text-grayishblue hidden' style={questionTwo ? showStyle : null}>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
@@ -65,7 +65,7 @@ const FaqAccodian = () => {
         <div>
           <hr className='w-full text-grayishblue' />
           <div className='flex justify-between mt-5 mb-7 items-center cursor-pointer' onClick={faq3}>
-            <h4 className='text-2xl text-darkblue font-medium hover:text-softred'>Is there a mobile app?</h4>
+            <h3 className='text-2xl text-darkblue font-medium hover:text-softred'>Is there a mobile app?</h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" style={questionThree ? styleArrow : null}><path fill="none" stroke={questionThree ? "softred" : "#5267DF"} stroke-width="3" d="M1 1l8 8 8-8" /></svg>
 
             </div>
@@ -76,7 +76,7 @@ const FaqAccodian = () => {
         <div>
           <hr className='w-full text-grayishblue' />
           <div className='flex justify-between mt-5 mb-7 items-center cursor-pointer' onClick={faq4}>
-            <h4 className='text-2xl text-darkblue font-medium hover:text-softred'>What about other Chromium browsers?</h4>
+            <h3 className='text-2xl text-darkblue font-medium hover:text-softred'>What about other Chromium browsers?</h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" style={questionFour ? styleArrow : null}><path fill="none" stroke={questionFour ? "softred" : "#5267DF"} stroke-width="3" d="M1 1l8 8 8-8" /></svg>
 
             </div>
