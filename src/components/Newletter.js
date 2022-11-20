@@ -37,7 +37,7 @@ const Newletter = () => {
       <p className='my-10 uppercase text-l text-center'> 35,000+ already joined
       </p>
       <div className='mb-10 textcontainer text-center'>
-        <h4 className='text-4xl '>Stay up-to-date with what <br /> we’re doing</h4>
+        <h4 className='text-4xl font-medium'>Stay up-to-date with what <br /> we’re doing</h4>
       </div>
       <div>
         <form>
