@@ -3,7 +3,7 @@ import "../styles/download.css"
 
 const Download = () => {
   return (
-    <section className='mt-7  font-rubik text-center' >
+    <article className='mt-7  font-rubik text-center' >
       <h2 className="font-medium mx-auto my-7 text-4xl text-darkblue">Download the extension</h2>
       <div className="text-center features text-grayishblue mb-10 "><p className='leading-normal'> We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p></div>
       <div className=' text-center flex justify-center mx-auto gap-10 mobile:flex-col desktop:flex-row mb-20 desktop:w-full mobile:w-50'>
@@ -30,7 +30,7 @@ const Download = () => {
         </div>
 
       </div>
-    </section>
+    </article>
   )
 }
 
