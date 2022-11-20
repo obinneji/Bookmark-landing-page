@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Live](https://github.com/obinneji/Bookmark-landing-page/)
-- Live Site URL: [Github](https://bookmark-landing-page-tail.vercel.app/)
+- Solution URL: [github solution](https://github.com/obinneji/Bookmark-landing-page/)
+- Live Site URL: [live](https://bookmark-landing-page-tail.vercel.app/)
 
 
 ### Built with
