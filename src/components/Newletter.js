@@ -33,7 +33,7 @@ const Newletter = () => {
     }
   }
   return (
-    <article role='contentinfo' className=' w-full bg-softblue pt-5  pb-8 px-7 text-white font-rubik'>
+    <article className=' w-full bg-softblue pt-5  pb-8 px-7 text-white font-rubik'>
       <p className='my-10 uppercase text-l text-center'> 35,000+ already joined
       </p>
       <div className='mb-10 textcontainer text-center'>
